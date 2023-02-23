@@ -15,7 +15,6 @@ dependencyResolutionManagement {
 
 rootProject.name = "playzone-mobile"
 include(":androidApp")
-include(":common:auth")
 include(":common:auth:api")
 include(":common:auth:presentation")
 include(":common:auth:data")
@@ -29,6 +28,8 @@ include(":common:games:presentation")
 include(":common:games:data")
 include(":common:games:compose")
 include(":common:core")
+include(":common:coreCompose")
+include(":common:coreUtils")
 include(":common:buildSrc")
 include(":common:umbrella-ios")
 include(":common:umbrella-compose")
