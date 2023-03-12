@@ -21,6 +21,8 @@ kotlin {
             export(project(":common:auth:api"))
             export(project(":common:auth:presentation"))
             export(project(":common:games:api"))
+            export(project(":common:main:api"))
+            export(project(":common:main:presentation"))
 //            export(project(":common:games:presentation"))
 //            export(project(":common:tournaments:api"))
 //            export(project(":common:tournaments:presentation"))
@@ -36,6 +38,8 @@ kotlin {
                 implementation(project(":common:auth:presentation"))
                 implementation(project(":common:games:api"))
                 implementation(project(":common:umbrella-core"))
+                implementation(project(":common:main:api"))
+                implementation(project(":common:main:presentation"))
             }
         }
 
@@ -46,6 +50,8 @@ kotlin {
                 api(project(":common:auth:api"))
                 api(project(":common:auth:presentation"))
                 api(project(":common:games:api"))
+                api(project(":common:main:api"))
+                api(project(":common:main:presentation"))
             }
         }
     }
