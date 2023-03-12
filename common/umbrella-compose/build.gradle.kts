@@ -16,6 +16,7 @@ kotlin {
                 implementation(project(":common:games:data"))
                 implementation(project(":common:tournaments:data"))
                 implementation(project(":common:umbrella-core"))
+                implementation(project(":common:main:compose"))
 
                 implementation(Dependencies.Other.ViewModel.core)
                 implementation(Dependencies.Other.ViewModel.compose)

@@ -9,4 +9,8 @@ object NavigationTree {
     enum class Auth {
         AUTH_FLOW, LOGIN, REGISTER, FORGOT
     }
+
+    enum class Main {
+        DASHBOARD, HOME, SEARCH, VIDEOS
+    }
 }

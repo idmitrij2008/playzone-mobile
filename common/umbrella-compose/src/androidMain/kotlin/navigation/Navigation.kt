@@ -10,4 +10,6 @@ fun RootComposeBuilder.generateGraph() {
     }
 
     authFlow()
+    mainFlow()
+    5:59:15
 }
